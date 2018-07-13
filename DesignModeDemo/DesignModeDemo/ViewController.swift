@@ -12,11 +12,11 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     var tableView:UITableView!
     var designModeArray:[[String]] = [[String]]()
-    var modeDic:[String:[String]] = [String:[String]]()
+    var modeDic:[[String:String]] = [[String:String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "24中设计模式"
+        self.title = "24种设计模式"
         self.view.backgroundColor = UIColor.white
         self.designModeArray = [
             ["单例模式", "简单工厂方法模式", "工厂方法模式", "抽象工厂模式", "构建者模式", "原型模式"],
@@ -65,7 +65,22 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     //MARK:- UITableViewDataSource & UITableViewDelegate
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        self.designModeArray.count
+        return self.designModeArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        var titleLable = UILabel()
+
+        if section == 0 {
+            titleLable.text = "创建型模式"
+
+        } else if section == 1 {
+            titleLable.text = "结构型模式"
+        } else if section == 2 {
+            titleLable.text = "行为型模式"
+        }
+        return titleLable
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -85,10 +100,10 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
-        let type = designModeArray[indexPath.section]
+        let type = designModeArray[indexPath.section][indexPath.row]
         print("\n\n=================设计模式：\(type)=================\n\n")
 
-        let vcName:String = self.modeDic[type]!
+        let vcName:String = self.modeDic[indexPath.section][type]!
 
         /// Swift 通过字符串创建类
         /// 方式：先获得命名空间,拼接"命名空间"+"."+"对应的字符串"
