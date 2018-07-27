@@ -1,23 +1,20 @@
 //
-//  SimpleProductViewController.swift
+//  FacedeViewController.swift
 //  DesignModeDemo
 //
-//  Created by Aibo on 2018/7/10.
+//  Created by Aibo on 2018/7/16.
 //  Copyright © 2018年 uuabc. All rights reserved.
 //
 
 import UIKit
 
-class SimpleProductViewController: UIViewController {
+class FacedeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let s = SimpleFactory()
-        let p = s.createProduct(type: 0)
-        p.method1()        
-//        let c = SimpleClient()
-//        c.factory.createProduct(type: 0) // get ConcreteProductA
+        let c = FacadeClient()
+        c.f.simpleMethod()
     }
 
     override func didReceiveMemoryWarning() {

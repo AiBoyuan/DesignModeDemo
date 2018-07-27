@@ -1,23 +1,30 @@
 //
-//  SimpleProductViewController.swift
+//  MementoViewController.swift
 //  DesignModeDemo
 //
-//  Created by Aibo on 2018/7/10.
+//  Created by Aibo on 2018/7/16.
 //  Copyright © 2018年 uuabc. All rights reserved.
 //
 
 import UIKit
 
-class SimpleProductViewController: UIViewController {
+class MementoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let s = SimpleFactory()
-        let p = s.createProduct(type: 0)
-        p.method1()        
-//        let c = SimpleClient()
-//        c.factory.createProduct(type: 0) // get ConcreteProductA
+        let g = GameState(chapter: "Prologue", level: "0")
+        print("111  \(g.memento.keys) + \(g.memento.values)")
+        // after a while
+        g.chapter = "Second"
+        g.level = "20"        
+        // want a break
+        Caretaker.save(memonto: g.memento, for: "gamename")
+        // load game
+        let gameState = Caretaker.loadMemonto(for: "gamename") // ["Second": "20"]
+        
+        print("222  \(gameState?.keys) + \(gameState?.values)")
+
     }
 
     override func didReceiveMemoryWarning() {

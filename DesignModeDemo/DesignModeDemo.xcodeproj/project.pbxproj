@@ -46,6 +46,10 @@
 		02BA100E20F7523D00E4CE45 /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA100D20F7523D00E4CE45 /* TemplateViewController.swift */; };
 		02BA101020F75AC200E4CE45 /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA100F20F75AC200E4CE45 /* ObserverPattern.swift */; };
 		02BA101220F75ADB00E4CE45 /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA101120F75ADB00E4CE45 /* ObserverViewController.swift */; };
+		02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA101320FC717C00E4CE45 /* FacadePattern.swift */; };
+		02BA101620FC71A000E4CE45 /* FacedeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA101520FC71A000E4CE45 /* FacedeViewController.swift */; };
+		02BA101820FC923900E4CE45 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA101720FC923900E4CE45 /* MementoPattern.swift */; };
+		02BA101A20FC925F00E4CE45 /* MementoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA101920FC925F00E4CE45 /* MementoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +94,10 @@
 		02BA100D20F7523D00E4CE45 /* TemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
 		02BA100F20F75AC200E4CE45 /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
 		02BA101120F75ADB00E4CE45 /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		02BA101320FC717C00E4CE45 /* FacadePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePattern.swift; sourceTree = "<group>"; };
+		02BA101520FC71A000E4CE45 /* FacedeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacedeViewController.swift; sourceTree = "<group>"; };
+		02BA101720FC923900E4CE45 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
+		02BA101920FC925F00E4CE45 /* MementoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +264,8 @@
 		0215135C20EF1D9900B5A229 /* 门面模式(Facade) */ = {
 			isa = PBXGroup;
 			children = (
+				02BA101320FC717C00E4CE45 /* FacadePattern.swift */,
+				02BA101520FC71A000E4CE45 /* FacedeViewController.swift */,
 			);
 			path = "门面模式(Facade)";
 			sourceTree = "<group>";
@@ -312,6 +322,8 @@
 		0215136B20F32A6400B5A229 /* 备忘录模式(Memento) */ = {
 			isa = PBXGroup;
 			children = (
+				02BA101720FC923900E4CE45 /* MementoPattern.swift */,
+				02BA101920FC925F00E4CE45 /* MementoViewController.swift */,
 			);
 			path = "备忘录模式(Memento)";
 			sourceTree = "<group>";
@@ -466,6 +478,7 @@
 				0215138B20F49AE500B5A229 /* AbstractFactory.swift in Sources */,
 				0215139920F4DDE900B5A229 /* AdapterPattern.swift in Sources */,
 				02BA100220F61D1A00E4CE45 /* CommandViewController.swift in Sources */,
+				02BA101620FC71A000E4CE45 /* FacedeViewController.swift in Sources */,
 				0215138320F3777900B5A229 /* FactoryPatternViewController.swift in Sources */,
 				0215139320F4A3F800B5A229 /* BuilderViewController.swift in Sources */,
 				02BA100C20F751BB00E4CE45 /* TemplatePattern.swift in Sources */,
@@ -479,9 +492,12 @@
 				0215136720EF692500B5A229 /* UseProtocol.swift in Sources */,
 				02BA100020F61CF000E4CE45 /* CommandPattern.swift in Sources */,
 				0215139520F4B5A800B5A229 /* PrototypePattern.swift in Sources */,
+				02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */,
 				0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */,
 				0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */,
+				02BA101820FC923900E4CE45 /* MementoPattern.swift in Sources */,
 				0215137520F345F300B5A229 /* SingletonManager.swift in Sources */,
+				02BA101A20FC925F00E4CE45 /* MementoViewController.swift in Sources */,
 				0215139720F4B60400B5A229 /* PrototypeViewController.swift in Sources */,
 				021513A120F4E91B00B5A229 /* Person.swift in Sources */,
 				0215138D20F49D5100B5A229 /* AbstractFactoryPatternViewController.swift in Sources */,

@@ -69,7 +69,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        var titleLable = UILabel()
+        let titleLable = UILabel()
 
         if section == 0 {
             titleLable.text = "创建型模式"
@@ -80,7 +80,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             titleLable.text = "行为型模式"
         }
         return titleLable
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -125,13 +124,9 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         subViewController.view.backgroundColor = UIColor.white
         self.navigationController?.pushViewController(subViewController, animated: true)
     }
-
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
