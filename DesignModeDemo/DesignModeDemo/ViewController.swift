@@ -100,7 +100,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
         let type = designModeArray[indexPath.section][indexPath.row]
-        print("\n\n=================设计模式：\(type)=================\n\n")
+        print("\n=================设计模式：\(type)=================\n")
 
         let vcName:String = self.modeDic[indexPath.section][type]!
 

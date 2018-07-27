@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020AF83E210B171500AB973E /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF83D210B171500AB973E /* StatePattern.swift */; };
+		020AF840210B173500AB973E /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF83F210B173500AB973E /* StateViewController.swift */; };
 		0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215133920EF1CCC00B5A229 /* AppDelegate.swift */; };
 		0215133C20EF1CCC00B5A229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215133B20EF1CCC00B5A229 /* ViewController.swift */; };
 		0215133F20EF1CCC00B5A229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0215133D20EF1CCC00B5A229 /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020AF83D210B171500AB973E /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
+		020AF83F210B173500AB973E /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
 		0215133620EF1CCC00B5A229 /* DesignModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215133920EF1CCC00B5A229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0215133B20EF1CCC00B5A229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -372,6 +376,8 @@
 		0215137120F32A7200B5A229 /* 状态模式(State) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF83D210B171500AB973E /* StatePattern.swift */,
+				020AF83F210B173500AB973E /* StateViewController.swift */,
 			);
 			path = "状态模式(State)";
 			sourceTree = "<group>";
@@ -494,7 +500,9 @@
 				0215139520F4B5A800B5A229 /* PrototypePattern.swift in Sources */,
 				02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */,
 				0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */,
+				020AF840210B173500AB973E /* StateViewController.swift in Sources */,
 				0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */,
+				020AF83E210B171500AB973E /* StatePattern.swift in Sources */,
 				02BA101820FC923900E4CE45 /* MementoPattern.swift in Sources */,
 				0215137520F345F300B5A229 /* SingletonManager.swift in Sources */,
 				02BA101A20FC925F00E4CE45 /* MementoViewController.swift in Sources */,
