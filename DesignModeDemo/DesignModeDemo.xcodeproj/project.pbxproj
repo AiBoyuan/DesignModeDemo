@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		020AF83E210B171500AB973E /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF83D210B171500AB973E /* StatePattern.swift */; };
 		020AF840210B173500AB973E /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF83F210B173500AB973E /* StateViewController.swift */; };
+		020AF846210EF7D200AB973E /* StrategyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF845210EF7D200AB973E /* StrategyPattern.swift */; };
+		020AF848210EF80B00AB973E /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF847210EF80B00AB973E /* StrategyViewController.swift */; };
+		020AF84A210EF92A00AB973E /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF849210EF92A00AB973E /* VisitorViewController.swift */; };
+		020AF84C210EF94200AB973E /* VisitorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF84B210EF94200AB973E /* VisitorPattern.swift */; };
+		020AF84E210EF9FD00AB973E /* Interpretater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF84D210EF9FD00AB973E /* Interpretater.swift */; };
+		020AF850210EFA3300AB973E /* InterpreterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF84F210EFA3300AB973E /* InterpreterViewController.swift */; };
+		020AF852210EFA6B00AB973E /* FlyweightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF851210EFA6B00AB973E /* FlyweightViewController.swift */; };
+		020AF854210EFA8500AB973E /* FlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF853210EFA8500AB973E /* FlyweightPattern.swift */; };
+		020AF856210EFBC300AB973E /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF855210EFBC300AB973E /* IteratorPattern.swift */; };
+		020AF858210EFBDD00AB973E /* IteratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AF857210EFBDD00AB973E /* IteratorViewController.swift */; };
 		0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215133920EF1CCC00B5A229 /* AppDelegate.swift */; };
 		0215133C20EF1CCC00B5A229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215133B20EF1CCC00B5A229 /* ViewController.swift */; };
 		0215133F20EF1CCC00B5A229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0215133D20EF1CCC00B5A229 /* Main.storyboard */; };
@@ -57,6 +67,16 @@
 /* Begin PBXFileReference section */
 		020AF83D210B171500AB973E /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		020AF83F210B173500AB973E /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		020AF845210EF7D200AB973E /* StrategyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPattern.swift; sourceTree = "<group>"; };
+		020AF847210EF80B00AB973E /* StrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		020AF849210EF92A00AB973E /* VisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
+		020AF84B210EF94200AB973E /* VisitorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPattern.swift; sourceTree = "<group>"; };
+		020AF84D210EF9FD00AB973E /* Interpretater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpretater.swift; sourceTree = "<group>"; };
+		020AF84F210EFA3300AB973E /* InterpreterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterViewController.swift; sourceTree = "<group>"; };
+		020AF851210EFA6B00AB973E /* FlyweightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightViewController.swift; sourceTree = "<group>"; };
+		020AF853210EFA8500AB973E /* FlyweightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPattern.swift; sourceTree = "<group>"; };
+		020AF855210EFBC300AB973E /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
+		020AF857210EFBDD00AB973E /* IteratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorViewController.swift; sourceTree = "<group>"; };
 		0215133620EF1CCC00B5A229 /* DesignModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215133920EF1CCC00B5A229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0215133B20EF1CCC00B5A229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -252,6 +272,8 @@
 		0215135A20EF1D9400B5A229 /* 享元模式(Flyweight) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF853210EFA8500AB973E /* FlyweightPattern.swift */,
+				020AF851210EFA6B00AB973E /* FlyweightViewController.swift */,
 			);
 			path = "享元模式(Flyweight)";
 			sourceTree = "<group>";
@@ -312,6 +334,8 @@
 		0215136920F32A5F00B5A229 /* 解释器模式(Interpreter) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF84D210EF9FD00AB973E /* Interpretater.swift */,
+				020AF84F210EFA3300AB973E /* InterpreterViewController.swift */,
 			);
 			path = "解释器模式(Interpreter)";
 			sourceTree = "<group>";
@@ -319,6 +343,8 @@
 		0215136A20F32A6100B5A229 /* 迭代器模式(Iterator) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF855210EFBC300AB973E /* IteratorPattern.swift */,
+				020AF857210EFBDD00AB973E /* IteratorViewController.swift */,
 			);
 			path = "迭代器模式(Iterator)";
 			sourceTree = "<group>";
@@ -344,6 +370,8 @@
 		0215136D20F32A6800B5A229 /* 访问者模式(Visitor) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF84B210EF94200AB973E /* VisitorPattern.swift */,
+				020AF849210EF92A00AB973E /* VisitorViewController.swift */,
 			);
 			path = "访问者模式(Visitor)";
 			sourceTree = "<group>";
@@ -369,6 +397,8 @@
 		0215137020F32A6F00B5A229 /* 策略模式(Strategy) */ = {
 			isa = PBXGroup;
 			children = (
+				020AF845210EF7D200AB973E /* StrategyPattern.swift */,
+				020AF847210EF80B00AB973E /* StrategyViewController.swift */,
 			);
 			path = "策略模式(Strategy)";
 			sourceTree = "<group>";
@@ -481,6 +511,8 @@
 				0215133C20EF1CCC00B5A229 /* ViewController.swift in Sources */,
 				02BA100E20F7523D00E4CE45 /* TemplateViewController.swift in Sources */,
 				02BA101020F75AC200E4CE45 /* ObserverPattern.swift in Sources */,
+				020AF848210EF80B00AB973E /* StrategyViewController.swift in Sources */,
+				020AF84A210EF92A00AB973E /* VisitorViewController.swift in Sources */,
 				0215138B20F49AE500B5A229 /* AbstractFactory.swift in Sources */,
 				0215139920F4DDE900B5A229 /* AdapterPattern.swift in Sources */,
 				02BA100220F61D1A00E4CE45 /* CommandViewController.swift in Sources */,
@@ -488,8 +520,11 @@
 				0215138320F3777900B5A229 /* FactoryPatternViewController.swift in Sources */,
 				0215139320F4A3F800B5A229 /* BuilderViewController.swift in Sources */,
 				02BA100C20F751BB00E4CE45 /* TemplatePattern.swift in Sources */,
+				020AF854210EFA8500AB973E /* FlyweightPattern.swift in Sources */,
+				020AF856210EFBC300AB973E /* IteratorPattern.swift in Sources */,
 				0215138920F4975400B5A229 /* FactoryPattern.swift in Sources */,
 				02BA100A20F74A6900E4CE45 /* CompositeViewController.swift in Sources */,
+				020AF84E210EF9FD00AB973E /* Interpretater.swift in Sources */,
 				0215138F20F4A36C00B5A229 /* BuilderPattern.swift in Sources */,
 				0215139B20F4DE0D00B5A229 /* AdapterViewController.swift in Sources */,
 				02BA0FFC20F5FFDB00E4CE45 /* MediatorPattern.swift in Sources */,
@@ -499,16 +534,21 @@
 				02BA100020F61CF000E4CE45 /* CommandPattern.swift in Sources */,
 				0215139520F4B5A800B5A229 /* PrototypePattern.swift in Sources */,
 				02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */,
+				020AF858210EFBDD00AB973E /* IteratorViewController.swift in Sources */,
 				0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */,
+				020AF850210EFA3300AB973E /* InterpreterViewController.swift in Sources */,
 				020AF840210B173500AB973E /* StateViewController.swift in Sources */,
 				0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */,
 				020AF83E210B171500AB973E /* StatePattern.swift in Sources */,
 				02BA101820FC923900E4CE45 /* MementoPattern.swift in Sources */,
+				020AF846210EF7D200AB973E /* StrategyPattern.swift in Sources */,
 				0215137520F345F300B5A229 /* SingletonManager.swift in Sources */,
 				02BA101A20FC925F00E4CE45 /* MementoViewController.swift in Sources */,
 				0215139720F4B60400B5A229 /* PrototypeViewController.swift in Sources */,
 				021513A120F4E91B00B5A229 /* Person.swift in Sources */,
 				0215138D20F49D5100B5A229 /* AbstractFactoryPatternViewController.swift in Sources */,
+				020AF84C210EF94200AB973E /* VisitorPattern.swift in Sources */,
+				020AF852210EFA6B00AB973E /* FlyweightViewController.swift in Sources */,
 				02BA100820F7479100E4CE45 /* Composite.swift in Sources */,
 				02BA100620F7408300E4CE45 /* ResponsibilityViewController.swift in Sources */,
 				02BA0FFA20F5DF0F00E4CE45 /* DecoratorViewController.swift in Sources */,
