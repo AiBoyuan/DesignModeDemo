@@ -45,6 +45,8 @@
 		0215139F20F4E82700B5A229 /* ProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215139E20F4E82700B5A229 /* ProxyViewController.swift */; };
 		021513A120F4E91B00B5A229 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021513A020F4E91B00B5A229 /* Person.swift */; };
 		0216CC9F211C49DC0083848D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216CC9E211C49DC0083848D /* Car.swift */; };
+		0216CCA1211C658E0083848D /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216CCA0211C658E0083848D /* BridgePattern.swift */; };
+		0216CCA3211C668B0083848D /* BridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216CCA2211C668B0083848D /* BridgeViewController.swift */; };
 		02BA0FF820F5DE8B00E4CE45 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FF720F5DE8B00E4CE45 /* DecoratorPattern.swift */; };
 		02BA0FFA20F5DF0F00E4CE45 /* DecoratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FF920F5DF0F00E4CE45 /* DecoratorViewController.swift */; };
 		02BA0FFC20F5FFDB00E4CE45 /* MediatorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FFB20F5FFDB00E4CE45 /* MediatorPattern.swift */; };
@@ -106,6 +108,8 @@
 		0215139E20F4E82700B5A229 /* ProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyViewController.swift; sourceTree = "<group>"; };
 		021513A020F4E91B00B5A229 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0216CC9E211C49DC0083848D /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0216CCA0211C658E0083848D /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
+		0216CCA2211C668B0083848D /* BridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeViewController.swift; sourceTree = "<group>"; };
 		02BA0FF720F5DE8B00E4CE45 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		02BA0FF920F5DF0F00E4CE45 /* DecoratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorViewController.swift; sourceTree = "<group>"; };
 		02BA0FFB20F5FFDB00E4CE45 /* MediatorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPattern.swift; sourceTree = "<group>"; };
@@ -301,6 +305,8 @@
 		0215135D20EF1D9B00B5A229 /* 桥梁模式(Bridge) */ = {
 			isa = PBXGroup;
 			children = (
+				0216CCA0211C658E0083848D /* BridgePattern.swift */,
+				0216CCA2211C668B0083848D /* BridgeViewController.swift */,
 			);
 			path = "桥梁模式(Bridge)";
 			sourceTree = "<group>";
@@ -531,6 +537,7 @@
 				0215138F20F4A36C00B5A229 /* BuilderPattern.swift in Sources */,
 				0215139B20F4DE0D00B5A229 /* AdapterViewController.swift in Sources */,
 				02BA0FFC20F5FFDB00E4CE45 /* MediatorPattern.swift in Sources */,
+				0216CCA3211C668B0083848D /* BridgeViewController.swift in Sources */,
 				0215137920F36D6700B5A229 /* Shape.swift in Sources */,
 				0215137720F3562800B5A229 /* SingletonViewController.swift in Sources */,
 				0215136720EF692500B5A229 /* UseProtocol.swift in Sources */,
@@ -540,6 +547,7 @@
 				02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */,
 				020AF858210EFBDD00AB973E /* IteratorViewController.swift in Sources */,
 				0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */,
+				0216CCA1211C658E0083848D /* BridgePattern.swift in Sources */,
 				020AF850210EFA3300AB973E /* InterpreterViewController.swift in Sources */,
 				020AF840210B173500AB973E /* StateViewController.swift in Sources */,
 				0215133A20EF1CCC00B5A229 /* AppDelegate.swift in Sources */,

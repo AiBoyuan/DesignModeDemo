@@ -14,10 +14,10 @@ class DecoratorViewController: UIViewController {
         super.viewDidLoad()
 
 //        var  component = ConcreteComponent.init(cost: 0)
-//        component = ConcreteComponent(cost: Coffee(10 as! Component))
-//        component = ConcreteComponent(cost: Sugar(10 as! Component))
-//        component = ConcreteComponent(cost: Milk(10 as! Component))
-//        var c = Milk(Sugar(Coffee(19))).cost
+//        component = ConcreteComponent(cost: Coffee(10 as! Component).cost)
+//        component = ConcreteComponent(cost: Sugar(10 as! Component).cost)
+//        component = ConcreteComponent(cost: Milk(10 as! Component).cost).cost
+//        let c = Milk(Sugar(Coffee(19 as! Component).cost as! Component)).cost
 //        print(c)
         
         
@@ -29,9 +29,13 @@ class DecoratorViewController: UIViewController {
         suv = Engine().decorator(suv)
         //装配安全系统
         suv = Safety().decorator(suv)
+        let type1 = type(of: suv)
+        print(type1)
         suv.showParts()
         print("一共花了\(suv.howMuch())W")
         print("\n")
+        
+        
         //wcl买一辆mpv
         var mpv: Car = Mpv(owner: "wcl")
         //装配发动机

@@ -12,7 +12,7 @@ import UIKit
 // 抽象构件
 protocol Component {
     var cost: Int { get }
-    func operate()
+//    func operate()
 }
 
 // 抽象装饰者
@@ -25,9 +25,9 @@ protocol Decorator: Component {
 struct ConcreteComponent:Component {
     var cost: Int
     
-    func operate() {
-        print("啥也没有")
-    }
+//    func operate() {
+//        print("啥也没有")
+//    }
 }
 
 // 第一次装饰 咖啡
@@ -41,9 +41,9 @@ struct Coffee: Decorator {
     var cost: Int{
         return component.cost + 1
     }
-    func operate() {
-        print("放入咖啡")
-    }
+//    func operate() {
+//        print("放入咖啡")
+//    }
 }
 
  // 第二次装饰 糖
@@ -55,9 +55,9 @@ struct Sugar: Decorator {
     init(_ component: Component) {
         self.component = component
     }
-    func operate() {
-        print("放入糖")
-    }
+//    func operate() {
+//        print("放入糖")
+//    }
 }
 
 // 第三次装饰 牛奶
@@ -69,9 +69,9 @@ struct Milk: Decorator {
     init(_ component: Component) {
         self.component = component
     }
-    func operate() {
-        print("放入牛奶")
-    }
+//    func operate() {
+//        print("放入牛奶")
+//    }
 
 }
 
