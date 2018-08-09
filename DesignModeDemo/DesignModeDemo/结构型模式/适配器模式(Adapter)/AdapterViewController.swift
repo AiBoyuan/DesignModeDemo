@@ -14,11 +14,11 @@ class AdapterViewController: UIViewController {
         super.viewDidLoad()
 
 //        Adapter(Adaptee(value: 1)).value // "1"
-        // 原有的业务罗辑
+        // 现有的业务罗辑
         let tg = ConcreteTarget()
         tg.request()
         
-        // 增加了适配器角色后的业务逻辑
+        // 增加了适配器角色后的业务逻辑（显示原有业务）
         let tg2 = Adapter()
         tg2.request()
         

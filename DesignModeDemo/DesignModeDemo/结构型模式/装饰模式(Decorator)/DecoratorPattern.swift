@@ -32,17 +32,18 @@ struct ConcreteComponent:Component {
 
 // 第一次装饰 咖啡
 struct Coffee: Decorator {
-    var cost: Int{
-        return component.cost + 1
-    }
     var component: Component
+    
     init(_ component: Component) {
         self.component = component
+    }
+    
+    var cost: Int{
+        return component.cost + 1
     }
     func operate() {
         print("放入咖啡")
     }
-
 }
 
  // 第二次装饰 糖

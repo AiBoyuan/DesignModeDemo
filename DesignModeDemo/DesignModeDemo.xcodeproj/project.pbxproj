@@ -44,6 +44,7 @@
 		0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215139C20F4E80200B5A229 /* ProxyPattern.swift */; };
 		0215139F20F4E82700B5A229 /* ProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215139E20F4E82700B5A229 /* ProxyViewController.swift */; };
 		021513A120F4E91B00B5A229 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021513A020F4E91B00B5A229 /* Person.swift */; };
+		0216CC9F211C49DC0083848D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216CC9E211C49DC0083848D /* Car.swift */; };
 		02BA0FF820F5DE8B00E4CE45 /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FF720F5DE8B00E4CE45 /* DecoratorPattern.swift */; };
 		02BA0FFA20F5DF0F00E4CE45 /* DecoratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FF920F5DF0F00E4CE45 /* DecoratorViewController.swift */; };
 		02BA0FFC20F5FFDB00E4CE45 /* MediatorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA0FFB20F5FFDB00E4CE45 /* MediatorPattern.swift */; };
@@ -104,6 +105,7 @@
 		0215139C20F4E80200B5A229 /* ProxyPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPattern.swift; sourceTree = "<group>"; };
 		0215139E20F4E82700B5A229 /* ProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyViewController.swift; sourceTree = "<group>"; };
 		021513A020F4E91B00B5A229 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0216CC9E211C49DC0083848D /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		02BA0FF720F5DE8B00E4CE45 /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 		02BA0FF920F5DF0F00E4CE45 /* DecoratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorViewController.swift; sourceTree = "<group>"; };
 		02BA0FFB20F5FFDB00E4CE45 /* MediatorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPattern.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				02BA0FF720F5DE8B00E4CE45 /* DecoratorPattern.swift */,
+				0216CC9E211C49DC0083848D /* Car.swift */,
 				02BA0FF920F5DF0F00E4CE45 /* DecoratorViewController.swift */,
 			);
 			path = "装饰模式(Decorator)";
@@ -533,6 +536,7 @@
 				0215136720EF692500B5A229 /* UseProtocol.swift in Sources */,
 				02BA100020F61CF000E4CE45 /* CommandPattern.swift in Sources */,
 				0215139520F4B5A800B5A229 /* PrototypePattern.swift in Sources */,
+				0216CC9F211C49DC0083848D /* Car.swift in Sources */,
 				02BA101420FC717C00E4CE45 /* FacadePattern.swift in Sources */,
 				020AF858210EFBDD00AB973E /* IteratorViewController.swift in Sources */,
 				0215139D20F4E80200B5A229 /* ProxyPattern.swift in Sources */,

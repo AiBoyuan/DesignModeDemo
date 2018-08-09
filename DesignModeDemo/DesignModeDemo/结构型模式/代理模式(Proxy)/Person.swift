@@ -29,9 +29,7 @@ class Person: NSObject {
         
 //        if (self.delegate?.responds(to:Selector(("runSpeed")) ))! {
 //
-//        }
-        
-        
+//        } 
     }
     
     func talk() {

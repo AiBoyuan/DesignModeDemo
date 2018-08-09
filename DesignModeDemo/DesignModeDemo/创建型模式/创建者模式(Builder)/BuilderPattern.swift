@@ -10,17 +10,17 @@ import UIKit
 
 /// 1、复杂版
 
-// 建造者
-protocol Builder {
-    func setPart()
-    func buildProduct() -> BuilderProduct
-}
-
 // 产品
 class BuilderProduct{
     func method1() {
         print("\(self)" + "\(#function)")
     }
+}
+
+// 建造者
+protocol Builder {
+    func setPart()
+    func buildProduct() -> BuilderProduct
 }
 
 // 具体建造者
