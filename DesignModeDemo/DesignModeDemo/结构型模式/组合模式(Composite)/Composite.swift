@@ -32,8 +32,18 @@ class Composite: CComponent {
     var components = [CComponent]()
     func someMethod() {
         // Composite
+        print(self.name)
+    }
+    
+    func disPlay() {
         components.forEach { (component) in
-            component.someMethod()
+            if component is Composite {
+                print(component.name + "开始：")
+                (component as! Composite).disPlay()
+                print(component.name + "结束：")
+            } else {
+                component.someMethod()
+            }
         }
     }
 }

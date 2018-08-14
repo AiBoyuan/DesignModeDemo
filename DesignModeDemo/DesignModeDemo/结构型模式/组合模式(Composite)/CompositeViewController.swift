@@ -17,13 +17,27 @@ class CompositeViewController: UIViewController {
         leaf1.name = "A"
         let leaf2 = Leaf()
         leaf2.name = "B"
-        let composite = Composite()
-        composite.components += [leaf1]
-        composite.components += [leaf2]
-        
-        composite.someMethod()
-//        leaf1.someMethod()
+        let leaf3 = Leaf()
+        leaf3.name = "C"
+        let leaf4 = Leaf()
+        leaf4.name = "D"
 
+        
+        let root = Composite()
+            root.name = "root"
+        let branch1 = Composite()
+            branch1.name = "branch1"
+        let branch2 = Composite()
+            branch2.name = "branch2"
+
+        branch1.components.append(leaf1)
+        branch1.components.append(leaf2)
+        branch2.components.append(leaf3)
+        root.components.append(branch1)
+        root.components.append(branch2)
+        root.components.append(leaf4)
+        root.disPlay()
+//        leaf1.someMethod()
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,7 +13,10 @@ class TemplateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let class1 = ConreteClass1()
+            class1.TemplateMethod()
+        let class2 = ConreteClass2()
+            class2.TemplateMethod()
     }
 
     override func didReceiveMemoryWarning() {
