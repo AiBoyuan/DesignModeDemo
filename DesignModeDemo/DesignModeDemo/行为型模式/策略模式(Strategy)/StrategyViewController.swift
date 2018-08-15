@@ -15,6 +15,18 @@ class StrategyViewController: UIViewController {
 
         Knight().attack() // output: sword
         Archer1().attack() // output: bow
+        let strategy1 = Knight()
+        let strategy2 = Archer1()
+        
+        print("===========")
+        
+        let conText = StrategyContext()
+        conText.context(strategy: strategy1)
+        conText.doSomething()
+        
+        conText.context(strategy: strategy2)
+        conText.doSomething()
+
 
     }
 

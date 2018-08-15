@@ -13,7 +13,7 @@ class MediatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var mediator = ConcreteMediator()
+        let mediator = ConcreteMediator()
         
         let c1 = ConcreteMComponent(mediator: mediator, name: "c1")
         let c2 = ConcreteMComponent(mediator: mediator, name: "c2")

@@ -17,7 +17,6 @@ class FlyweightViewController: UIViewController {
         c.targetObjects["Test"] = TargetObject(title: "Test")
         c.lookup(key: "123").printTitle() // nil
         c.lookup(key: "Test").printTitle() // Test    
-
     }
 
     override func didReceiveMemoryWarning() {

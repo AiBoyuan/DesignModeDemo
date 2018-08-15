@@ -45,5 +45,16 @@ class Archer1: Character {
     }
 }
 
+class StrategyContext  {
+    private var strategy:Character?
+    
+    func context(strategy:Character) {
+        self.strategy = strategy
+    }
+    func doSomething() {
+        self.strategy?.weapon?.use()
+    }
+}
+
 ///////////////////////////////////
 
