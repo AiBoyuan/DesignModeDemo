@@ -51,7 +51,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
              "状态模式":"StateViewController",
              "访问者模式":"VisitorViewController",
              "解释器模式":"InterpreterViewController"]
-            
         ]
         
         self.tableView = UITableView.init(frame: self.view.bounds, style: .grouped)
@@ -59,7 +58,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         self.tableView.dataSource = self
         tableView.tableFooterView = UIView()
         self.view.addSubview(self.tableView)
-        
     }
     
     //MARK:- UITableViewDataSource & UITableViewDelegate
@@ -73,7 +71,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
 
         if section == 0 {
             titleLable.text = "创建型模式"
-
         } else if section == 1 {
             titleLable.text = "结构型模式"
         } else if section == 2 {
@@ -82,8 +79,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         return titleLable
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        
         return self.designModeArray[section].count
     }
     

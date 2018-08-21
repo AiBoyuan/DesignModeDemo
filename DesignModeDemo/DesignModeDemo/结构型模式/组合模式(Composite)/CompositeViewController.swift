@@ -21,7 +21,10 @@ class CompositeViewController: UIViewController {
         leaf3.name = "C"
         let leaf4 = Leaf()
         leaf4.name = "D"
+        let leaf5 = Leaf()
+        leaf5.name = "E"
 
+        
         
         let root = Composite()
             root.name = "root"
@@ -29,10 +32,15 @@ class CompositeViewController: UIViewController {
             branch1.name = "branch1"
         let branch2 = Composite()
             branch2.name = "branch2"
+        let branch3 = Composite()
+            branch3.name = "branch3"
 
+        
         branch1.components.append(leaf1)
         branch1.components.append(leaf2)
         branch2.components.append(leaf3)
+        branch2.components.append(branch3)
+        branch3.components.append(leaf5)
         root.components.append(branch1)
         root.components.append(branch2)
         root.components.append(leaf4)

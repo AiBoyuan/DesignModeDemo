@@ -16,6 +16,8 @@ class ObserverViewController: UIViewController {
         let observable = ConcreteObservable()
         let a = ConcreteObserverA()
         let b = ConcreteObserverB()
+        observable.num = 12
+        
         observable.add(observer: a)
         observable.add(observer: b)
         observable.notifyObservers() // output: A B

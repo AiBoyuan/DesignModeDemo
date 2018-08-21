@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 被观察者
 protocol Observable {
     var observers: [Observer] { get }
     func add(observer: Observer)
@@ -15,8 +16,10 @@ protocol Observable {
     func notifyObservers()
 }
 
+// 具体的被观察者
 class ConcreteObservable: Observable {
     var observers = [Observer]()
+    var num  = 10;
     func add(observer: Observer) {
         observers.append(observer)
     }
@@ -26,20 +29,23 @@ class ConcreteObservable: Observable {
         }
     }
     func notifyObservers() {
-        observers.forEach { $0.update() }
+        observers.forEach { $0.update(num: num) }
     }
 }
 
+// 观察者接口
 protocol Observer: class {
-    func update()
+    func update(num:Int)
 }
 
+// 具体观察者
 class ConcreteObserverA: Observer {
-    func update() { print("A") }
+    func update(num:Int) { print("A + \(num)") }
 }
 
+// 具体观察者
 class ConcreteObserverB: Observer {
-    func update() { print("B") }
+    func update(num:Int) { print("B + \(num)") }
 }
 
 
