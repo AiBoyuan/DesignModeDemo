@@ -13,8 +13,8 @@ protocol Facade {
 }
 
 class LegacyCode {
-    func someMethod1() { }
-    func someMethod2() { }
+    func someMethod1() { print("someMethod1") }
+    func someMethod2() { print("someMethod1") }
 }
 
 extension LegacyCode: Facade {

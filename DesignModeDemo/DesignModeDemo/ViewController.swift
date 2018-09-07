@@ -35,7 +35,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             ["适配器模式":"AdapterViewController",
              "装饰器模式":"DecoratorViewController",
              "代理模式":"ProxyViewController",
-             "外观模式":"FacadeViewController",
+             "外观模式":"FacedeViewController",
              "桥接模式":"BridgeViewController",
              "组合模式":"CompositeViewController",
              "享元模式":"FlyweightViewController"],

@@ -26,8 +26,6 @@ class StrategyViewController: UIViewController {
         
         conText.context(strategy: strategy2)
         conText.doSomething()
-
-
     }
 
     override func didReceiveMemoryWarning() {
